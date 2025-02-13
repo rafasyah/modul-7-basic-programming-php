@@ -1,5 +1,5 @@
 <?php
-echo "<h1>tugas array</h1>";
+echo "<center><h1>tugas array</h1></center>";
 echo "<hr>";
 $nilaiulgn=[
     ['nama'=> "denis", "nilai" => 80,],
@@ -10,8 +10,8 @@ $nilaiulgn=[
     
 ];
 
-
-echo '<table border ="1" cellspacing=0'  ;
+echo "<center><h1> daftar nilai siswa</h1></center>";
+echo '<table border ="1" cellspacing=0'   ;
 echo '  <th>
             <td>nama</td>
             <td>nilai</td>
@@ -36,5 +36,5 @@ foreach ($nilaiulgn as $n) {
     echo "<td>"  .$status."</td>";
     echo "</tr>";
 }
-// developer note: fuck you bitch next to me
+
 echo "</table>";
