@@ -1,8 +1,10 @@
 <!-- Form Handling dengan method GET -->
-<form method="get" action="tampil.php">
-    <label>Masukkan Nama</label><br />
-    <input type="text" name="nama"><br />
-    <label>Masukkan Usia</label><br />
-    <input type="text" name="usia"><br />
-    <input type="submit" value="oke">
+
+
+<form  action="proses.php"method="post">
+    <label>Bilangan 1</label><br />
+    <input type="number" name="bil1"><br />
+    <label>Bilangan 2</label><br />
+    <input type="number" name="bil2"><br />
+    <input type="submit">
 </form>
