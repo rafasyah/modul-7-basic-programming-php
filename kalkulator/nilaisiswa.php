@@ -89,21 +89,21 @@ if(isset($_POST['hitung'])){
     <table class="table-auto">
   <thead>
     <tr>
-      <th class="p-4">Nama</th>
-      <th class="p-4">Nilai Tugas</th>
-      <th class="p-4">Nilai UTS</th>
-      <th class="p-4">Nilai UAS</th>
-      <th class="p-4">Nilai Akhir</th>
-      <th class="p-4">Kategori</th>
+      <th class="p-4 text-white bg-gray-600 ">Nama</th>
+      <th class="p-4 text-white bg-gray-600">Nilai Tugas</th>
+      <th class="p-4 text-white bg-gray-600">Nilai UTS</th>
+      <th class="p-4 text-white bg-gray-600">Nilai UAS</th>
+      <th class="p-4 text-white bg-gray-600">Nilai Akhir</th>
+      <th class="p-4 text-white bg-gray-600">Kategori</th>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class="p-4"><?php echo $nama    ?></td>
+      <td class="p-4 "><?php echo $nama    ?></td>
       <td class="p-4"><?php echo $tugas    ?></td>
       <td class="p-4"><?php echo $uts    ?></td>
       <td class="p-4"><?php echo $uas    ?></td>
-      <td name="hasilakhir" id=hasilakhir><?php echo $hasilakhir    ?></td>
+      <td name="hasilakhir" id=''><?php echo $hasilakhir    ?></td>
       <td class="p-4"><?php echo $kategori  ?></td> </td>
     </tr>
    
